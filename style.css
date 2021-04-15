@@ -1,3 +1,18 @@
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 16px 16px;
+}
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  clear: both;
+  display: inline-block;
+  float: left;
+  max-width: 100%;
+  padding: 16px 0;
+  text-align: center;
+}
 img.Question{
   width: 30%;
 }
