@@ -1,10 +1,11 @@
+/*
 main {
   display: block;
   margin: 0 auto;
   max-width: 420px;
   padding: 0 16px 16px;
 }
-/*
+
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   clear: both;
@@ -16,8 +17,12 @@ footer {
 }
 */
 div.YesNo{
-  height: 100px;
-  width: 100px;
+  max-width: 100%;
+  height: auto;
   float: left;
   padding-right: 20px;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
