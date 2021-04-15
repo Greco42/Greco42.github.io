@@ -1,9 +1,9 @@
 
 body{
-  background-color: #8C001D;
+  background-color: #8c001d;
 }
 header{
-  background-color: #033E94;
+  background-color: #ccc;
 }
 /*
 main {
@@ -29,7 +29,7 @@ footer {
   padding: 32px 0;
   text-align: center;
 }
-*/
+
 div.YesNo{
   max-width: 100%;
   height: auto;
@@ -40,3 +40,4 @@ img{
   max-width: 100%;
   height: auto;
 }
+*/
