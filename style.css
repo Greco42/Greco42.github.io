@@ -1,3 +1,12 @@
-img.Question{}
-img.Yes{}
-img.No{}
+img.Question{
+  width: 70%;
+}
+img.Yes{
+  width: 50%
+}
+img.No{
+  width: 50%
+}
+div.center{
+  text-align: center;
+}
