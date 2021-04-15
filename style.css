@@ -17,6 +17,8 @@ img.Question{
   width: 30%;
 }
 div.YesNo{
+  height: auto;
+  width: auto;
   float: left;
   padding-right: 20px;
 }
