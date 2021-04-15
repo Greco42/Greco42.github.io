@@ -1,3 +1,10 @@
+
+body{
+  background-color: #8C001D;
+}
+header{
+  background-color: #033E94;
+}
 /*
 main {
   display: block;
@@ -5,7 +12,14 @@ main {
   max-width: 420px;
   padding: 0 16px 16px;
 }
-
+*/
+main{
+  background-color: #5C008C;
+}
+footer{
+  background-color: ##839900;
+}
+/*
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   clear: both;
