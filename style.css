@@ -23,7 +23,7 @@ font-size:13px;
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 -webkit-text-size-adjust: none;
-background-color: #8C001D; 
+/*background-color: #8C001D;*/
 }
 
 
@@ -47,6 +47,7 @@ background:#fff;
 .inner{
 margin:0 auto;
 width:100%;
+text-align: center;
 }
 
 
@@ -55,7 +56,7 @@ width:100%;
 *************/
 #header{
 height:110px;
-background-color: #033E94;
+/*background-color: #033E94;*/
 }
 
 #header h1{
@@ -76,15 +77,16 @@ color:#888;
 /* ロゴ
 *************/
 .logo{
-float:left;
+/*float:left;*/
+text-align: center;
 }
 
 .logo p{float:left;}
 
 .logo img{
 width:auto;
-float:left;
-padding:2px 10px 0 10px;
+/*float:left;*/
+padding:0 10px 0 10px;
 }
 
 .logo span{display:block;}
@@ -126,6 +128,7 @@ padding:0;
 width:100%;
 position:relative;
 line-height:0;
+text-align: center;
 }
 
 #mainBanner img{
@@ -138,16 +141,18 @@ height:auto;
 /* グリッド
 **************************/
 .gridWrapper{
-padding:10px 0 20px;
-overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding:60px 0 80px;
+  overflow: hidden;
 }
 
 * html .gridWrapper{height:1%;}
 
 .grid{
 float:left;
-border-radius:5px;
-background:#fff;
+/*margin: auto;*/
+text-align: center;
 }
 
 .box{
@@ -157,6 +162,7 @@ margin:0 5px;
 .box img{
 max-width:100%;
 height:auto;
+text-align: center;
 }
 
 .box h3{padding:10px 0 5px;}
@@ -175,7 +181,7 @@ text-align:right;
 *************/
 #main{
 margin-top:25px;
-background-color: #08A32B;
+/*background-color: #08A32B;*/
 }
 
 section.content article{
@@ -305,7 +311,7 @@ line-height:1.35;
 clear:both;
 overflow:hidden;
 padding:10px 10px 20px 10px;
-background-color: #5C008C;
+/*background-color: #5C008C;*/
 }
 
 * html #footer{height:1%;}
@@ -365,6 +371,8 @@ color:#333;
 	width:960px;
 	padding:0;
 	margin:0 auto;
+  text-align: center;
+  font-size: large;
 	}
 
 	#wrapper{padding-bottom:20px;}
@@ -378,6 +386,8 @@ color:#333;
 	nav#mainNav .inner{
 	width:932px;
 	padding:0 14px;
+  text-align: center;
+  font-size: large;
 	}
 
 	nav#mainNav ul li{
@@ -421,7 +431,7 @@ color:#333;
 	padding-top:9px;
 	}
 
-	#mainBanner{margin-left:15px;}
+	#mainBanner{margin-left:0px;}
 	#subpage #mainBanner{margin:17px auto;}
 
 	#main{
@@ -446,7 +456,7 @@ color:#333;
 	/* グリッド全体 */
 	.gridWrapper{
 	width:960px;
-	margin:0 0 0 -10px;
+	margin:0 0 0 0px;
 	}
 
 	#gallery article{padding:10px 0 10px 10px;}
@@ -455,7 +465,7 @@ color:#333;
 	.grid{
 	float:left;
 	width:300px;
-	margin-left:20px;
+	/*margin-left:20px;*/
 	}
 
 	#subpage .grid{width:auto;}
@@ -555,7 +565,8 @@ color:#333;
 
 	.grid{
 	width:32%;
-	margin:10px 0 0 1%;
+	margin:10px 0 0 0;
+  text-align: center;
 	}
 
 	#gallery .grid{
@@ -597,7 +608,7 @@ color:#333;
 	.logo img{float:none;padding:0;}
 
 	.box img{
-	float:left;
+	/*float:left;*/
 	margin-right:5px;
 	}
 
